@@ -1,0 +1,21 @@
+GET http://localhost:8080/users
+
+###
+
+POST http://localhost:8080/login
+content-type: application/json
+
+{
+	"username": "Argana",
+	"password": "Argana123"
+}
+
+###
+
+POST http://localhost:8080/register
+content-type: application/json
+
+{
+	"username": "Difen",
+	"password": "Difen_password_321"
+}
